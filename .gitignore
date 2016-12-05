@@ -32,8 +32,8 @@ db/tmp/
 solution/AssemblyVersion.cs
 solution/AssemblyVersion.fs
 [Ll]ogs/
-src/packages/*
-src/*/packages/*
+packages/*
+*/packages/*
 *ncrunch*
 *.azurePubxml
 dump.rdb

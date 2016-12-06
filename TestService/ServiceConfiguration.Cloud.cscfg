@@ -4,6 +4,15 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="fmi-test2016" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBrQYJKoZIhvcNAQcDoIIBnjCCAZoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEHZ6p36+m7m4QQw7J3/qQG8wDQYJKoZIhvcNAQEBBQAEggEAaC+C74wB24y9+nkXDAe/HqOlXAMd4inNCEHn5t3ceKLE39dG24Yynkj1nEt9dqCUVsRYNfn5nWEzW72kR/X7mgwpjAoYD5WSiVzJbVm11V8717Q/hxiCG4QeFXE+M9Z04V8jDqW1IRVvhT3jbK9T3pTgeVrXnSGweXsr93podQZc+7p+0m/Xpa2w9BagS/yYQWflpUNTEyxgX/54O/syZIHUm51flCtPukaadqBpXq3bzDtBSkuA86p7Jq4cElvJuvBCY/FIKKcmSSajUNAdAAyDUJe1QX3PanRuSo7RMtIzTXUs0sZV++gf+29fUK1vnhnk9xthqm+/Kw9cQ9AD1TBDBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECHpePeasZ4zLgCDzFFd/4dWM2020O/vSZqFAbwQ3KBiMYGtjJ0D0CqrhKg==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-12-06T23:59:59.0000000+02:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+      <Setting name="DbConnectionString" value="Server=tcp:knrewfk737.database.windows.net,1433;Database=fmi-test2016-db;User ID=test-fmi@knrewfk737;Password=G*$Nsdn49#4tb999H$h356fg5%$%;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" />
     </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="347B3254AFE9D0A71A956515E78FB09A1DD2BD25" thumbprintAlgorithm="sha1" />
+    </Certificates>
   </Role>
 </ServiceConfiguration>

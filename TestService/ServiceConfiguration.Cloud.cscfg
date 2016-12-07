@@ -10,6 +10,7 @@
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2017-12-06T23:59:59.0000000+02:00" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
       <Setting name="DbConnectionString" value="Server=tcp:knrewfk737.database.windows.net,1433;Database=fmi-test2016-db;User ID=test-fmi@knrewfk737;Password=G*$Nsdn49#4tb999H$h356fg5%$%;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" />
+      <Setting name="Setting1" value="pencho" />
     </ConfigurationSettings>
     <Certificates>
       <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="347B3254AFE9D0A71A956515E78FB09A1DD2BD25" thumbprintAlgorithm="sha1" />
